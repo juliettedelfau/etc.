@@ -1,10 +1,29 @@
 /* GENERAL */
 
+@font-face{
+    font-family: "Kosko";
+  src:
+    local("kosko_font"),
+    url("assets/fonts/KoskoRegular-Regular.otf") format("opentype"),
+    url("assets/fonts/KoskoRegular-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Kosko";
+  src:
+    local("kosko_font"),
+    url("assets/fonts/KoskoBold-Bold.otf") format("opentype"),
+    url("assets/fonts/KoskoBold-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
 html, body{
     margin: 0;
     padding: 0;
     background-color: #ffefdb;
-    font-family: Kosko regular;
+    font-family: "Kosko";
+    font-weight: normal;
 }
 
 :root {
@@ -12,14 +31,14 @@ html, body{
 }
 
 h2{
-    font-family: Kosko;
+    font-weight: bold;
     font-size: 40px;
     margin-top: 70px;
     margin-bottom: 0px;
 }
 
 p{
-    font-size: 25px; 
+    font-size: 25px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -222,6 +241,7 @@ img.etc{
     margin-left: auto;
     margin-right: auto;
     font-family: Kosko;
+    font-weight: bold;
     text-decoration: none;
     color: #ffefdb; 
     background-image: 
@@ -274,10 +294,11 @@ img.etc{
     background-color: #ffefdb;
     color: black;
     font-family: Kosko;
+    font-weight: bold;
 }
 
 .bouton:hover {
-  transform: scale(1.02);
+  transform: scale(1.02); 
 }
 
 .CV{
@@ -297,7 +318,7 @@ img.etc{
 }
 
 .LinkedIn:hover {
-    transform: scale(1.06);
+    transform: scale(1.05);
 } 
 
 
@@ -330,6 +351,7 @@ footer{
     text-decoration: none;
     color: #ffefdb;
     font-family: Kosko;
+    font-weight: bold;
 }
 
 .made{
